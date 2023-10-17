@@ -8,6 +8,8 @@ body {
     font-size:1.6rem;
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    background-image: url(dist\images\forme.png);
+    background-position: ;
 
 }
 .container{
@@ -27,7 +29,7 @@ body {
     justify-content: flex-end;
 }
 .mainMenu li{
-    font-size: 25px;
+    font-size: 1.6rem;
     list-style: none;
     text-decoration: none;
     display: flex;
