@@ -1,3 +1,7 @@
+:root{
+    --primary-color: #212832;
+    --secondly-color: #3A556A;
+}
 html{
     font-size: 62.5%;
 }
@@ -9,7 +13,7 @@ body {
     font-family: 'Libre Franklin', sans-serif;
     font-family: 'Open Sans', sans-serif;
     background-image: url(dist\images\forme.png);
-    background-position: ;
+    background-repeat: no-repeat;
 
 }
 .container{
@@ -38,15 +42,19 @@ body {
 }
 .mainMenu a{
     padding: 5px 10px;
-    color: #212832;
+    color: var(--primary-color);
     margin: 20px;
     text-decoration: none;
 }
 .signUp{
     padding: 25px;
-    border: 2px #212832 solid;
+    border: 2px var(--primary-color) solid;
     border-radius: 3px ;
 }
 .EN{
+
+}
+.bgImage{
+    background-position: right top;
 
 }
