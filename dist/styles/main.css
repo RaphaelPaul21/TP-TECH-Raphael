@@ -11,8 +11,19 @@ body {
 
 }
 #header{
+    padding: 10px 0px;
 
 }
-.imageFond{
-
+.maiMenu{
+    display: flex;
+    justify-content: flex-end;
+}
+.mainMenu li{
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
 }
