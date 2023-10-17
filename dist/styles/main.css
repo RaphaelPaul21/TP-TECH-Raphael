@@ -31,11 +31,20 @@ body {
     list-style: none;
     text-decoration: none;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 }
 .mainMenu a{
     padding: 5px 10px;
+    color: #212832;
+    margin: 20px;
     text-decoration: none;
+}
+.signUp{
+    padding: 25px;
+    border: 2px #212832 solid;
+    border-radius: 3px ;
+}
+.EN{
+
 }
